@@ -30,7 +30,7 @@ body {
 }
 
 .header-container {
-  max-width: 900px;
+  max-width: 1200px;
   color: var(--brand);
   margin: 0 auto;
   display: flex;
