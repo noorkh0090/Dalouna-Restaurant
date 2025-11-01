@@ -121,7 +121,7 @@ font-weight: 600;
 }
 
 #about {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto 50px;
   gap: 20px;
   text-align: left;
@@ -162,7 +162,7 @@ font-weight: 600;
   display: block;
   flex-direction: column;
   padding: 0px;
-  width: 44%;
+  width: 49%;
   height: 225px;
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -186,7 +186,7 @@ font-weight: 600;
   display: block;
   flex-direction: column;
   padding: 20px;
-  max-width: 20%;
+  width: 20%;
   height: 325px;
   text-align: left;
   color: var(--text);
@@ -289,7 +289,7 @@ font-weight: 600;
 }
 /* ====== Hours Section ====== */
 #hours {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 80px auto;
   padding: 0 20px;
 }
@@ -310,7 +310,7 @@ font-weight: 600;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
-  max-width: 41%;
+  width: 46%;
 }
 
 #hours .menu-card:hover {
@@ -365,7 +365,7 @@ font-weight: 600;
 }
 /* ====== Find Us Section ====== */
 #find-us {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: auto;
   padding: 0 20px;
   margin-bottom: 60px;
@@ -391,7 +391,7 @@ font-weight: 600;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
-  max-width: 41%;
+  width: 46%;
   display: flex;
 }
 
@@ -417,10 +417,12 @@ font-weight: 600;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   height: 100%;
   border: solid 1px var(--border);
+  width: 100%;
+  margin-right: 20px;
 }
 
 .menu-card-map {
-  max-width: 43%;
+  width: 48%;
   max-height: 270px;
   padding-right: 20px;
  transition: transform 0.3s ease;
