@@ -186,7 +186,7 @@ font-weight: 600;
   display: block;
   flex-direction: column;
   padding: 20px;
-  width: 20%;
+  max-width: 20%;
   height: 325px;
   text-align: left;
   color: var(--text);
