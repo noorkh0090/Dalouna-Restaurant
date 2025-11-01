@@ -239,7 +239,7 @@ font-weight: 600;
   font-style: Rubik;
   margin-left: 0px;
   margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px
+  padding: 0px 0px 0px 0px;
 }
 
 .menu-highlight-card h6:last-of-type {
@@ -254,6 +254,7 @@ font-weight: 600;
   font-style: Rubik;
   margin-left: 18px;
   padding: 10px 0px 0px 0px;
+  font-style: Rubik;
 }
 .tags span {
   display: inline-block;
@@ -300,6 +301,7 @@ font-weight: 600;
   margin-bottom:  auto 0px;
   text-align: left;
   margin: 0px 0px 20px 0px;
+  font-style: Rubik;
 }
 
 #hours .menu-card {
@@ -322,11 +324,13 @@ font-weight: 600;
   margin-bottom: 4px;
   margin: 0px 0px 0px 0px;
   max-width: 100%;
+  font-style: Rubik;
 }
 #hours .menu-card h6 {
   margin-bottom: 0px;
   margin-left: 5px;
   max-width: 100%;
+  font-style: Rubik;
 }
 
 #hours .menu-card p {
@@ -339,6 +343,7 @@ font-weight: 600;
   margin-bottom: 4px;
   margin: 0px;
   max-width: 100%;
+  font-style: Rubik;
 }
 
 #hours .menu-card p:all-of-type {
@@ -377,6 +382,7 @@ font-weight: 600;
   text-align: left;
   margin: 0px;
   padding: 0px;
+  font-style: Rubik;
 }
 
 #find-us .menu-card {
@@ -395,6 +401,7 @@ font-weight: 600;
   text-align: left;
   margin: 0px;
   padding: 0px;
+  font-style: Rubik;
 }
 #find-us .menu-card h6 {
   margin: 0px;
@@ -402,6 +409,7 @@ font-weight: 600;
   color: var(--muted);
   font-weight: 400;
   font-size: 0.85rem;
+  font-style: Rubik;
 }
 .map {
   border-radius: 8px;
@@ -434,6 +442,7 @@ font-weight: 600;
   color: var(--muted);
   margin-bottom: 8px;
   line-height: 1.6;
+  font-family: Rubik;
 }
 
 .site-footer p:last-child {
@@ -482,6 +491,7 @@ font-weight: 600;
   #find-us h2 {
     font-size: 1.5rem;
     margin-bottom: 30px;
+    font-style: Rubik;
   }
 
   #hours .menu-card,
