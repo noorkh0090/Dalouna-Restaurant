@@ -458,28 +458,21 @@ font-weight: 600;
 .site-footer a:hover {
   color: var(--brand);
 }
-/* === Mobile Fixes === */
-/* === Mobile Fixes (Improved) === */
 @media (max-width: 768px) {
 
   .hero-content h2 {
     font-size: 1.5rem;
     max-height: none;
   }
-  /* الكروت تصير بعرض كامل تقريباً */
   .menu-card,
   .menu-highlight-card {
     width: 100% ;
     height: auto ;
     padding: 15px ;
   }
-
-  /* معالجة مشكلة العرض الثابت 20% */
   .menu-highlight-card {
     flex-basis: 100%;
   }
-
-  /* النص ما يطلع برة */
   .menu-card h5,
   .menu-card h6,
   .menu-highlight-card h5,
@@ -487,8 +480,6 @@ font-weight: 600;
     white-space: normal;
     overflow-wrap: break-word;
   }
-
-  /* تصغير الخط */
   .menu-card h3,
   .menu-card h5,
   .menu-card h6,
