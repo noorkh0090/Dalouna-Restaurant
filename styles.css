@@ -85,7 +85,7 @@ body {
 .hero-content h2 {
   font-size: 2.0rem;
   margin-bottom: 10px;
-  color: var(--card);
+  color: var(--border);
   font-style: Rubik;
   max-height: 45px;
   margin: 0px;
@@ -108,7 +108,7 @@ body {
   font-size: 0.8rem;
   max-width: 550px;
   margin: 0px;
-  color: var(--card);
+  color: var(--border);
   font-style: Rubik;
 }
 .view-menu {
