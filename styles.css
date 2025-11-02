@@ -510,7 +510,7 @@ font-weight: 600;
     font-size: 0.85rem;
   }
   #hours .menu-card {
-    max-width: 100%;
+    width: 100%;
     padding: 20px;
   }
 
@@ -521,7 +521,7 @@ font-weight: 600;
 
   #find-us .menu-card,
   .menu-card-map {
-    max-width: 100%;
+    width: 100%;
   }
   #find-us .menu-card {
     padding: 0 auto;
