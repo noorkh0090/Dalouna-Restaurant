@@ -140,7 +140,7 @@ font-weight: 600;
 }
 #menu {
   max-width: 100%;
-  margin: 0 auto;
+  margin: 0px;
   text-align: center;
   display: flex;
   justify-content: center;
