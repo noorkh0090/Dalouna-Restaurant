@@ -281,11 +281,9 @@ font-weight: 600;
 .note {
   font-size: 0.75rem;
   color: var(--muted);
-  margin-top: 118px;
   font-style: Rubik;
   text-align: left;
-  margin-right: 20px;
-  margin-left: 0px;
+  margin-left: 17%;
 }
 /* ====== Hours Section ====== */
 #hours {
