@@ -365,7 +365,7 @@ font-weight: 600;
 #find-us {
   max-width: 1300px;
   margin: auto;
-  padding: 0 20px;
+  padding: 0px;
   margin-bottom: 60px;
   display: flex;
   justify-content: center;
@@ -378,31 +378,52 @@ font-weight: 600;
   font-weight: 600;
   color: var(--text);
   text-align: left;
-  margin: 0px;
+  margin-left: 15px;
   padding: 0px;
   font-style: Rubik;
 }
 
 #find-us .menu-card {
   background: var(--card);
-  padding: 20px;
+  padding: 0px;      
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   transition: all 0.3s ease;
-  width: 46%;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 235px;
 }
+
+/* Make map box match same card style */
+#find-us .map {
+  background: var(--card);                
+  border-radius: 12px;                    
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  overflow: hidden;                      
+  height: 100%;                          
+  display: flex;
+  align-items: center;                    
+  justify-content: center;
+}
+
+/* Hover effect same as Hours */
+#find-us .menu-card:hover,
+#find-us .map:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
 
 #find-us .menu-card p {
   font-size: 0.95rem;
   color: var(--text);
   text-align: left;
-  margin: 0px;
+  margin-left: 15px;
   padding: 0px;
   font-style: Rubik;
 }
 #find-us .menu-card h6 {
-  margin: 0px;
+  margin-left: 15px;
   text-align: left;
   color: var(--muted);
   font-weight: 400;
@@ -410,25 +431,17 @@ font-weight: 600;
   font-style: Rubik;
 }
 .map {
-  border-radius: 8px;
-  overflow: hidden;
+  border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   height: 100%;
   border: solid 1px var(--border);
   width: 100%;
-  margin-right: 20px;
-}
-
-.menu-card-map {
-  width: 48%;
-  max-height: 270px;
-  padding-right: 20px;
- transition: transform 0.3s ease;
 }
 .map img:hover {
   transform: scale(1.02);
   transition: transform 0.3s ease;
 }
+
 .site-footer {
   background-color: var(--bg);
   padding: 40px 20px;
