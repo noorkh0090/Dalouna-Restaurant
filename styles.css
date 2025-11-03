@@ -394,8 +394,6 @@ font-weight: 600;
   justify-content: center;
   height: 235px;
 }
-
-/* Make map box match same card style */
 #find-us .map {
   background: var(--card);                
   border-radius: 12px;                    
@@ -406,8 +404,6 @@ font-weight: 600;
   align-items: center;                    
   justify-content: center;
 }
-
-/* Hover effect same as Hours */
 #find-us .menu-card:hover,
 #find-us .map:hover {
   box-shadow: 0 4px 12px rgba(0,0,0,0.12);
