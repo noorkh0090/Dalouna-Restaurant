@@ -83,7 +83,7 @@ body {
 }
 
 .hero-content h2 {
-  font-size: 2.0rem;
+  font-size: 2.4rem;
   margin-bottom: 10px;
   color: var(--border);
   font-style: Rubik;
@@ -93,11 +93,11 @@ body {
 .subtext {
   border-bottom: 1px solid var(--brand-2);
   background-color: var(--brand-2);
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   margin-bottom: auto;
   color: var(--text);
   font-style: Rubik;
-  max-width: 230px;
+  max-width: 330px;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
@@ -105,7 +105,7 @@ body {
 }
 
 .hero-content  {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
   max-width: 550px;
   margin: 0px;
   color: var(--border);
@@ -117,7 +117,8 @@ border-radius: 25px;
 background-color: var(--brand);
 color: var(--card);
 padding: 10px 20px;
-font-weight: 600;
+font-size: 1.4;
+max-width: 140px;;
 }
 
 #about {
@@ -149,7 +150,7 @@ font-weight: 600;
   flex-direction: column;
 }
 
-.menu-grid {
+.menu-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -162,7 +163,6 @@ font-weight: 600;
   border: 1px solid var(--border);
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   display: block;
-  flex-direction: column;
   padding: 0px;
   width: 49%;
   height: 225px;
@@ -174,7 +174,7 @@ font-weight: 600;
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0,0,0,0.1);
 }
-.menu-highlight-grid {
+.menu-highlight-flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -236,7 +236,7 @@ font-weight: 600;
 .menu-highlight-card h6 {
   margin-bottom: 1px;
   padding-bottom: 2px;
-  border-bottom: 1px dashed #dcdcdc;
+  border-bottom: 1px dashed var(--bg);
    color: var(--muted);
   font-style: Rubik;
   margin-left: 0px;
@@ -307,7 +307,7 @@ font-weight: 600;
 #hours .menu-card {
   background: var(--card);
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
   width: 46%;
@@ -361,12 +361,10 @@ font-weight: 600;
 /* ====== Find Us Section ====== */
 #find-us {
   max-width: 1300px;
-  margin: auto;
-  margin-bottom: 60px;
+  margin: 80px auto;
+  padding: 0 20px;
   display: flex;
-  justify-content: center;
   gap: 20px;
-  padding: 0px 0px 0px 0px;
 }
 
 #find-us h2 {
@@ -381,27 +379,27 @@ font-weight: 600;
 
 #find-us .menu-card {
   background: var(--card);
-  padding: 0px;      
+  padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 235px;
+  width: 46%;
 }
 #find-us .map {
-  background: var(--bg);                
-  border-radius: 12px;                    
-  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
-  overflow: hidden;                      
-  height: 100%;                          
-  display: flex;
-  align-items: center;                    
-  justify-content: center;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  width: 100%;
+  overflow: hidden;
+  height: 268px;
+  padding: auto;
+  border: 1px solid var(--border);
+  padding-right: 10px;
+  margin: auto;
+
 }
-#find-us .menu-card:hover,
-#find-us .map:hover {
+.map,
+#find-us .menu-card:hover {
   box-shadow: 0 4px 12px rgba(0,0,0,0.12);
 }
 
@@ -422,18 +420,6 @@ font-weight: 600;
   font-size: 0.85rem;
   font-style: Rubik;
 }
-.map {
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-  height: 100%;
-  border: solid 1px var(--border);
-  width: 100%;
-}
-.map img:hover {
-  transform: scale(1.10);
-  transition: transform 0.3s ease;
-}
-
 .site-footer {
   background-color: var(--bg);
   padding: 40px 20px;
