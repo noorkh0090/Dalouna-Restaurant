@@ -346,12 +346,7 @@ font-weight: 600;
   font-style: Rubik;
 }
 
-#hours .menu-card p:all-of-type {
-  border-bottom: none;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  margin: 0px 0px 0px 0px;
-}
+
 #call {
   color: var(--text);
   padding: 5px;
