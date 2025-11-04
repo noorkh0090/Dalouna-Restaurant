@@ -71,7 +71,7 @@ body {
 
 .hero-image {
   width: 100%;
-  height: 60vh;
+  height: 75vh;
 }
 
 .hero-content {
@@ -127,6 +127,8 @@ font-weight: 600;
   text-align: left;
   display: flex;
   justify-content: center;
+  margin-top: 30px;
+  padding: auto;
 }
 
 #about p {
@@ -198,7 +200,7 @@ font-weight: 600;
 }
 #menu h2 {
   color: var(--text);
-  margin-left: 15%;
+  margin-left: 16%;
   text-align: left;
   padding: auto;
   display: flex;
@@ -365,12 +367,11 @@ font-weight: 600;
 #find-us {
   max-width: 1300px;
   margin: auto;
-  padding: 0px;
   margin-bottom: 60px;
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding: 0px 0px 20px 0px;
+  padding: 0px 0px 0px 0px;
 }
 
 #find-us h2 {
@@ -395,7 +396,7 @@ font-weight: 600;
   height: 235px;
 }
 #find-us .map {
-  background: var(--card);                
+  background: var(--bg);                
   border-radius: 12px;                    
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
   overflow: hidden;                      
@@ -434,7 +435,7 @@ font-weight: 600;
   width: 100%;
 }
 .map img:hover {
-  transform: scale(1.02);
+  transform: scale(1.10);
   transition: transform 0.3s ease;
 }
 
